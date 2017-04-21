@@ -62,7 +62,7 @@ liquibase --driver=com.mysql.jdbc.Driver \
      --url="jdbc:mysql://localhost/example" \
      --username=user \
      --password=asdf \
-     migrate
+     update
 {% endhighlight %}
 
 There are many more databases supported by liquibase. For a list of them and which jdbc driver, url, classpath etc. they need, please visit the [databases](databases.html) section.
